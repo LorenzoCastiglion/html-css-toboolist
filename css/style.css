@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header{
+    margin: 1% 0 1% 2%;
+}
+
 img{
     vertical-align: middle;
 }
@@ -76,10 +80,9 @@ summary {
 }
 
 
-span{
+.prova{
     font-size: x-small;
     color: white;
-    
     border-radius: 12px;
     padding: 5px 8px;
 }
@@ -90,7 +93,10 @@ p {
 }
 
 span.check{
-    height: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
     font-size: 10px;
     font-weight: 800;
     color: #65C0A9;
@@ -100,24 +106,28 @@ span.check{
 }
 
 span.cross{
-    height: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;   
+    padding: 4px;
     font-size: 8px;
     font-weight: 600;
     color: #EB5952;
     background-color: white;
     border: 1px solid #EB5952;
     border-radius: 50%;
-    
 
 }
 
 /* colori classi tasks */
 .editorial {
     background-color: #45ABEA;
+
 }
 
 .goals {
     background-color: #9C72E4;
+
 }
 
 .rec {
