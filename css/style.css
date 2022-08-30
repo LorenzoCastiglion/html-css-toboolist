@@ -5,16 +5,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-header {
-    margin: 2% 0 2% 3%;
-    background-color: white;
-
+img{
+    vertical-align: middle;
 }
 
-#titolo {
-    display: inline;
+h1{
+    display: inline-block;
+    vertical-align: middle;
 }
+
+
 
 main {
     background-color: #F6F8F9;
@@ -76,10 +76,10 @@ summary {
 }
 
 
-span {
+span{
     font-size: x-small;
     color: white;
-    background-color: black;
+    
     border-radius: 12px;
     padding: 5px 8px;
 }
@@ -90,7 +90,9 @@ p {
 }
 
 span.check{
-    font-size: xx-small;
+    height: 10px;
+    font-size: 10px;
+    font-weight: 800;
     color: #65C0A9;
     background-color: white;
     border: 1px solid #65C0A9;
@@ -98,11 +100,14 @@ span.check{
 }
 
 span.cross{
-    font-size: xx-small;
+    height: 10px;
+    font-size: 8px;
+    font-weight: 600;
     color: #EB5952;
     background-color: white;
     border: 1px solid #EB5952;
     border-radius: 50%;
+    
 
 }
 
