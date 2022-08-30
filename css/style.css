@@ -13,10 +13,6 @@ header{
 }
 #titolo{
     display: inline;
-    
-    line-height: 0;
-    
-
 }
 
 main{
@@ -55,7 +51,7 @@ button{
     display: inline;
     border: 1px solid lightgrey;
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px 8px;
     margin-left: 5px;
 }
 
@@ -64,6 +60,11 @@ button{
     display: inline;
     background-color: #47ADF2;
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px 8px;
 
+}
+
+summary{
+    font-weight: 600;
+    font-size: 20px;
 }
