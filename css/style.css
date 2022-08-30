@@ -64,7 +64,50 @@ button{
 
 }
 
+div.centrale{
+   margin-left: 50px;
+   margin-top: 20px;
+}
+
 summary{
     font-weight: 600;
     font-size: 20px;
+}
+
+
+span{
+    font-size: x-small;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 5px 8px;
+}
+
+p{
+    padding: 10px 0;
+}
+
+/* colori classi tasks */
+.editorial{
+    background-color: #45ABEA ;
+}
+
+.goals{
+    background-color: #9C72E4 ;
+}
+
+.rec{
+    background-color: #64C0A9;
+}
+
+.mobile{
+    background-color: #F29E34;
+}
+
+.web{
+    background-color: #D863A1;
+}
+
+.sales{
+    background-color: #B0C926;
 }
