@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -6,39 +6,40 @@
 }
 
 
-header{
+header {
     margin: 2% 0 2% 3%;
     background-color: white;
 
 }
-#titolo{
+
+#titolo {
     display: inline;
 }
 
-main{
+main {
     background-color: #F6F8F9;
     height: 100vh;
     padding: 5%;
 }
 
-hr{
+hr {
     border: 1px solid #F6F8F9;
 }
 
-.corpo{
+.corpo {
     background-color: rgb(255, 255, 255);
     height: 80vh;
     width: 60%;
     margin: auto;
     border-radius: 20px;
-    
+
 }
 
-button{
+button {
     padding: 6px;
 }
 
-.top{
+.top {
     padding: 10px;
     padding-left: 30px;
     display: inline-block;
@@ -46,7 +47,7 @@ button{
     margin: 10px 0 10px 15px;
 }
 
-#Section{
+#Section {
     color: lightgrey;
     display: inline;
     border: 1px solid lightgrey;
@@ -55,7 +56,7 @@ button{
     margin-left: 5px;
 }
 
-#Add{
+#Add {
     color: white;
     display: inline;
     background-color: #47ADF2;
@@ -64,18 +65,18 @@ button{
 
 }
 
-div.centrale{
-   margin-left: 50px;
-   margin-top: 20px;
+div.centrale {
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
-summary{
+summary {
     font-weight: 600;
     font-size: 20px;
 }
 
 
-span{
+span {
     font-size: x-small;
     color: white;
     background-color: black;
@@ -83,31 +84,49 @@ span{
     padding: 5px 8px;
 }
 
-p{
+p {
     padding: 10px 0;
+    font-size: 16px;
+}
+
+span.check{
+    font-size: xx-small;
+    color: #65C0A9;
+    background-color: white;
+    border: 1px solid #65C0A9;
+    border-radius: 50%;
+}
+
+span.cross{
+    font-size: xx-small;
+    color: #EB5952;
+    background-color: white;
+    border: 1px solid #EB5952;
+    border-radius: 50%;
+
 }
 
 /* colori classi tasks */
-.editorial{
-    background-color: #45ABEA ;
+.editorial {
+    background-color: #45ABEA;
 }
 
-.goals{
-    background-color: #9C72E4 ;
+.goals {
+    background-color: #9C72E4;
 }
 
-.rec{
+.rec {
     background-color: #64C0A9;
 }
 
-.mobile{
+.mobile {
     background-color: #F29E34;
 }
 
-.web{
+.web {
     background-color: #D863A1;
 }
 
-.sales{
+.sales {
     background-color: #B0C926;
 }
