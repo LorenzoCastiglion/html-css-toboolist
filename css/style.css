@@ -5,21 +5,21 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     margin: 1% 0 1% 2%;
 }
 
-img{
+img {
     vertical-align: middle;
 }
 
-h1{
+h1 {
     display: inline-block;
     vertical-align: middle;
 }
 
 
-
+/* sfondo pagina rosa antico */
 main {
     background-color: #F6F8F9;
     height: 100vh;
@@ -30,6 +30,7 @@ hr {
     border: 1px solid #F6F8F9;
 }
 
+/* corpo centrale bianco */
 .corpo {
     background-color: rgb(255, 255, 255);
     height: 80vh;
@@ -39,6 +40,7 @@ hr {
 
 }
 
+/* bottoni corpo centrale alto */
 button {
     padding: 6px;
 }
@@ -51,6 +53,7 @@ button {
     margin: 10px 0 10px 15px;
 }
 
+/* bottone uno */
 #Section {
     color: lightgrey;
     display: inline;
@@ -60,6 +63,7 @@ button {
     margin-left: 5px;
 }
 
+/* bottone due */
 #Add {
     color: white;
     display: inline;
@@ -69,18 +73,21 @@ button {
 
 }
 
+/* spaziatura corpo centrale */
 div.centrale {
     margin-left: 50px;
     margin-top: 20px;
 }
 
+
+/* stile  liste a scomparsa */
 summary {
     font-weight: 600;
     font-size: 20px;
 }
 
 
-.prova{
+.prova {
     font-size: x-small;
     color: white;
     border-radius: 12px;
@@ -92,7 +99,8 @@ p {
     font-size: 16px;
 }
 
-span.check{
+/* icona check */
+span.check {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -105,10 +113,11 @@ span.check{
     border-radius: 50%;
 }
 
-span.cross{
+/* icona cross */
+span.cross {
     display: inline-block;
     width: 20px;
-    height: 20px;   
+    height: 20px;
     padding: 4px;
     font-size: 8px;
     font-weight: 600;
